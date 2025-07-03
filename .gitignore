@@ -1,0 +1,23 @@
+# Ignore Ultralytics training outputs
+runs/
+
+# Ignore large YOLO model weights
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit cache
+.streamlit/
+
+# Ignore dataset
+data/
+
+# Virtual Environments
+venv/
+.env/
+yolov8/
+
+# System files
+.DS_Store
